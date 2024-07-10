@@ -11,6 +11,7 @@ require 'daniels.lsp.java'
 require 'daniels.lsp.lua'
 require 'daniels.lsp.python'
 require 'daniels.lsp.zig'
+require 'daniels.formatter'
 
 -- Debugger setups
 require 'daniels.dap.c'
@@ -43,3 +44,6 @@ require 'daniels.key-bindings.lsp'
 require 'daniels.key-bindings.replace-all-occurencies'
 require 'daniels.key-bindings.terminal'
 require 'daniels.key-bindings.misc'
+
+-- Custom commands
+require 'daniels.custom-commands.zipit'
